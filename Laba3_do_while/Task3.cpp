@@ -9,7 +9,7 @@ void print(int n, int k) {
 		i++;
 		if (i % k != 0)
 			continue;
-		cout << pow(-1, i) * (i + 1.) / (pow(i, 3) - pow(i, 2) + 1) << " ";
+		cout << pow(-1, i) * pow(2, i) / (pow(i, i + 1) + 1) << " ";
 	} while (i <= n);
 	cout << endl;
 }

@@ -6,7 +6,7 @@ double summ2(double eps) {
 	double sum = 0;
 	int i = 0;
 	do {
-		ai = pow(-1, i) * (i + 1.) / (pow(i, 3) - pow(i, 2) + 1);
+		ai = pow(-1, i) * pow(2, i) / (pow(i, i + 1) + 1);
 		sum += ai;
 		i++;
 	} while (abs(ai) > eps);
