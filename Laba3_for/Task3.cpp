@@ -5,7 +5,7 @@ using namespace std;
 
 void print(int n, int k) {
 	for (int i = 1; i <= n; i++) {
-		if (i % k != 0)
+		if (i % k == 0)
 			continue;
 		cout << pow(-1, i) * pow(2, i) / (pow(i, i + 1) + 1) << " ";
 	}
