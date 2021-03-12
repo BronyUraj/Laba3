@@ -10,6 +10,6 @@ void print(int n, int k) {
 		if (i % k == 0)
 			continue;
 		cout << pow(-1, i) * pow(2, i) / (pow(i, i + 1) + 1) << " ";
-	} while (i <= n);
+	} while (i < n);
 	cout << endl;
 }

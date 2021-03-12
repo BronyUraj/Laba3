@@ -5,7 +5,7 @@ using namespace std;
 
 void print(int n, int k) {
 	int i = 0;
-	while (i <= n) {
+	while (i < n) {
 		i++;
 		if (i % k == 0)
 			continue;
